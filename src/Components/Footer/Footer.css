@@ -1,0 +1,9 @@
+.footer_bg_here{
+    background-image: url('../../assets/images/backgroup-secsion/10.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.widget p, .widget .title-widget {
+    color: #fff;
+}

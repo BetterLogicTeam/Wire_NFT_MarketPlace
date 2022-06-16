@@ -1,0 +1,35 @@
+.pick_bg_here{
+    background-image: url('../../assets/images/backgroup-secsion/bg-main.gif') !important;
+    /* background-image: url('../../assets/images/backgroup-secsion/12.png') !important; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sc-button.style.bag span::before {
+    content: "\e901";
+    /* -webkit-transition: all 0.05s ease;
+    -moz-transition: all 0.05s ease;
+    -ms-transition: all 0.05s ease;
+    -o-transition: all 0.05s ease; */
+    transition: all 0.05s ease;
+}
+
+.sc-button.style span::before {
+    position: absolute;
+    font-family: 'nfts';
+    font-size: 20px;
+    left: 0;
+    font-weight: 100;
+    top: -4px;
+}
+
+.fl-button i, .fl-button span, .fl-button span::after, .fl-button span::before {
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 0.1px;
+}

@@ -1,0 +1,224 @@
+
+.item-details-area .owner .owner-meta h6 {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .item-details-area .owner .owner-meta:hover h6 {
+    color: #4528DC;
+  }
+  
+  .item-details-area .item-info img {
+    border-radius: 8px;
+  }
+  
+  .item-details-area .item-info .countdown-container {
+    margin: 0 10px;
+  }
+  
+  .item-details-area .item-info .countdown-container .countdown-heading {
+    font-size: 14px !important;
+  }
+  
+  .item-details-area .item-info .countdown-container .countdown-value {
+    font-size: 20px;
+  }
+  
+  .item-details-area .netstorm-tab.nav-tabs {
+    border-bottom: 2px solid #16151A;
+  }
+  
+  .item-details-area .netstorm-tab li {
+    margin: 0;
+  }
+  
+  .item-details-area .netstorm-tab li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+  
+  .item-details-area .netstorm-tab li a::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0;
+    bottom: -2.5px;
+    left: 0;
+    background-color: #4528DC;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .item-details-area .netstorm-tab li a.active h5 {
+    color: #4528DC;
+  }
+  
+  .item-details-area .netstorm-tab li a.active::after {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .item-details-area .netstorm-tab li:first-of-type a {
+    margin-left: 0;
+  }
+  
+  .item-details-area .tab-content .single-tab-list {
+    margin: 1.5rem 0;
+  }
+  
+  .item-details-area .tab-content .single-tab-list strong, .item-details-area .tab-content .single-tab-list a {
+    color: var(--white-color);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .item-details-area .tab-content .single-tab-list a:hover {
+    color: #4528DC;
+  }
+  
+  .item-details-area .tab-content .owner h6 {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .item-details-area .tab-content .owner:hover h6 {
+    color: #4528DC;
+  }
+
+  .item-details-area .item-info img {
+    border-radius: 8px;
+  }
+  
+  .item-details-area .item-info .countdown-container {
+    margin: 0 10px;
+  }
+  
+  .item-details-area .item-info .countdown-container .countdown-heading {
+    font-size: 14px !important;
+  }
+  
+  .item-details-area .item-info .countdown-container .countdown-value {
+    font-size: 20px;
+  }
+
+  .item-details-area .netstorm-tab.nav-tabs {
+    border-bottom: 2px solid #16151A;
+  }
+  
+  .item-details-area .netstorm-tab li {
+    margin: 0;
+  }
+  
+  .item-details-area .netstorm-tab li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+  
+  .item-details-area .netstorm-tab li a::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0;
+    bottom: -2.5px;
+    left: 0;
+    background-color: #4528DC;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .item-details-area .netstorm-tab li a.active h5 {
+    color: #4528DC;
+  }
+  
+  .item-details-area .netstorm-tab li a.active::after {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .item-details-area .netstorm-tab li:first-of-type a {
+    margin-left: 0;
+  }
+
+  
+.activity-area .netstorm-tab.nav-tabs {
+    border-bottom: 2px solid #16151A;
+  }
+  
+  .activity-area .netstorm-tab li {
+    margin: 0;
+  }
+  
+  .activity-area .netstorm-tab li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+  
+  .activity-area .netstorm-tab li a::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 0;
+    bottom: -2.5px;
+    left: 0;
+    background-color: #4528DC;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .activity-area .netstorm-tab li a.active h5 {
+    color: #4528DC;
+  }
+  
+  .activity-area .netstorm-tab li a.active::after {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .activity-area .netstorm-tab li:first-of-type a {
+    margin-left: 0;
+  }
+
+  .activity-area .netstorm-tab.nav-tabs {
+    border-bottom: 2px solid #16151A;
+  }
+
+
+  .btn_all{
+    position: relative;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    padding: 10px 20% 40px 20%;
+   
+    border: 0 none;
+    border-radius: 100px;
+    outline: 0 none;
+    cursor: pointer;
+    z-index: 1;
+    background-image: linear-gradient(150deg, #57048A 0%, #4528DC 78%);
+
+  }
+
+  @media screen and (max-width:800px) {
+    .btn_all{
+    margin-top: 1rem;
+    
+      }
+  }

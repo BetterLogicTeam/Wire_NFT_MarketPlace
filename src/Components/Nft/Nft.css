@@ -1,0 +1,6 @@
+.nft_bg{
+    background-image: url('../../assets/images/backgroup-secsion/bg-main.gif') !important;
+        background-image: overlay url('../../assets/images/backgroup-secsion/13.png') !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
