@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import "./Auction.css";
 import { BsHandbagFill } from "react-icons/bs";
 import { MdLocalFireDepartment } from "react-icons/md";
-import axios from 'axios';
 import women_drink from '../../assets/women_drink.jpg'
+import axios from 'axios';
 import Auction_Model from "../Auction_Model/Auction_Model";
 import Biding_Model from "../Biding_Model/Biding_Model";
 

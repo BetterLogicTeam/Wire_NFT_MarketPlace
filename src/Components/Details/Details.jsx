@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useMoralis, useMoralisWeb3Api } from 'react-moralis';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useHistory, useNavigate, useParams } from 'react-router-dom';
 import { loadWeb3 } from '../Api/api';
 import { wireNftContractAbi, wireNftContractAddress } from '../Utils/wireNft';
 import { MdSell } from 'react-icons/md'

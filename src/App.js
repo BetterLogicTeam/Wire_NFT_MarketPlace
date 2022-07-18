@@ -14,6 +14,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
+  Router,
 } from "react-router-dom";
 import Explore_main from "./Components/Explore_main";
 import Index_main from "./Components/Index_main";
@@ -31,7 +32,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
        <ToastContainer/>
-        <Header></Header>
+        <Header></Header> 
         <Routes>
           <Route exact path="/" element={<Index_main />} />
 
@@ -42,7 +43,7 @@ function App() {
           <Route exact path="/Create" element={<Create />} />
           <Route exact path="/Contact" element={<Contact />} />
           <Route exact path="/My_collection" element={<My_collection />} />
-          <Route exact path='Details/:id' element={<Details/>} />
+          <Route exact path='/details/:id' element={<Details/>} />
 
 
         </Routes>

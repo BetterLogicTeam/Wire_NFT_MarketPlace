@@ -4,7 +4,7 @@ import { AiOutlineReload } from "react-icons/ai";
 import { loadWeb3 } from '../Components/Api/api';
 import { wireNftContractAbi, wireNftContractAddress } from '../Components/Utils/wireNft';
 import { useMoralisWeb3Api, useMoralis } from "react-moralis";
-import { useNavigate } from "react-router-dom";
+import { Link, useHistory, useNavigate } from "react-router-dom";
 
 
 
@@ -123,40 +123,44 @@ export default function My_collection() {
                                 return (
                                     <>
                                         <div class="fl-item col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                                            <div class="sc-card-product coming_soon" onClick={() => myHistory(`/Details/${index}`)}>
-                                                <div class="card-media">
-                                                    <img src="placeholder.webp" alt="Image" />
-                                                    <button class="wishlist-button heart"><span class="number-like"> 100</span></button>
-                                                    {/* <div class="coming-soon">coming soon</div> */}
-                                                </div>
-                                                <div class="card-title">
-                                                    <h5 class="style2"><a href="item-details.html " className='text-dark'>{items?.name}</a></h5>
-                                                    <div class="tags">bsc</div>
-                                                </div>
-                                                <div class="meta-info">
-                                                    <div class="author">
-                                                        <div class="avatar">
-                                                            <img src="placeholder.webp" alt="Image" />
-                                                        </div>
-                                                        <div class="info">
-                                                            <span>Owned By</span> <br />
-                                                            <span>
+                                            <Link to={(`/details/${index}`)}>
+                                                <div class="sc-card-product coming_soon"
+                                                //  onClick={() => myHistory.push(`/Details/${index}`)}
+                                                >
+                                                    <div class="card-media">
+                                                        <img src="placeholder.webp" alt="Image" />
+                                                        <button class="wishlist-button heart"><span class="number-like"> 100</span></button>
+                                                        {/* <div class="coming-soon">coming soon</div> */}
+                                                    </div>
+                                                    <div class="card-title">
+                                                        <h5 class="style2"><a href="item-details.html " className='text-dark'>{items?.name}</a></h5>
+                                                        <div class="tags">bsc</div>
+                                                    </div>
+                                                    <div class="meta-info">
+                                                        <div class="author">
+                                                            <div class="avatar">
+                                                                <img src="placeholder.webp" alt="Image" />
+                                                            </div>
+                                                            <div class="info">
+                                                                <span>Owned By</span> <br />
+                                                                <span>
 
-                                                                {items?.owner_of.substring(0, 8) + "..." + items?.owner_of.substring(items?.owner_of.length - 8)
-                                                                }
-                                                            </span>
+                                                                    {items?.owner_of.substring(0, 8) + "..." + items?.owner_of.substring(items?.owner_of.length - 8)
+                                                                    }
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="price">
+                                                            <span>Current Price</span>
+                                                            <h5> {items?.amount} ETH</h5>
                                                         </div>
                                                     </div>
-                                                    <div class="price">
-                                                        <span>Current Price</span>
-                                                        <h5> {items?.amount} ETH</h5>
+                                                    <div class="card-bottom">
+                                                        <a href="#" data-toggle="modal" data-target="#popup_bid" class="sc-button style bag fl-button pri-3"><span>Place Bid</span></a>
+                                                        <a href="activity1.html" class="view-history "><AiOutlineReload />View History</a>
                                                     </div>
                                                 </div>
-                                                <div class="card-bottom">
-                                                    <a href="#" data-toggle="modal" data-target="#popup_bid" class="sc-button style bag fl-button pri-3"><span>Place Bid</span></a>
-                                                    <a href="activity1.html" class="view-history "><AiOutlineReload />View History</a>
-                                                </div>
-                                            </div>
+                                            </Link>
                                         </div>
 
                                     </>
